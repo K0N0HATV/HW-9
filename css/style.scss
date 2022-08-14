@@ -660,7 +660,7 @@ body {
   }
 }
 
-.footer-bg {
+.maps {
   width: 1240px;
   width: 100%;
   background: #222021;
@@ -672,7 +672,7 @@ body {
   }
 }
 
-.contact {
+.maps-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -690,7 +690,7 @@ body {
 
 }
 
-.footer-logo {
+.maps-container-img {
   width: 162px;
   height: 69px;
 
@@ -703,7 +703,7 @@ body {
 
 }
 
-.footer-contact {
+.maps-container-block-maps {
   display: flex;
   margin-top: 43px;
   gap: 7px;
@@ -716,7 +716,7 @@ body {
   }
 }
 
-.footer-phone {
+.maps-container-block-tel {
   display: flex;
   margin-top: 12px;
   gap: 10px;
@@ -727,14 +727,14 @@ body {
   }
 }
 
-.phone {
+.maps-container-block-tel-img {
   @media screen and(min-width:768px) {
     width: 39px;
     height: 39px;
   }
 }
 
-.end {
+.footer-p-small {
   margin-top: 35px;
   font-family: 'Saira';
   font-style: normal;
@@ -750,7 +750,7 @@ body {
   }
 }
 
-.end-2 {
+.footer-p-big {
   display: none;
 
   @media screen and(min-width:768px) {
@@ -768,7 +768,7 @@ body {
   }
 }
 
-.geo-p {
+.maps-container-block-maps-p {
   width: 206px;
   height: 42px;
   left: 120px;
@@ -792,14 +792,14 @@ body {
 
 }
 
-.geo {
+.maps-container-block-maps-img {
   @media screen and(min-width:768px) {
     width: 50px;
     height: 50px;
   }
 }
 
-.phone-p {
+.maps-container-block-tel-p {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -817,7 +817,7 @@ body {
   }
 }
 
-.footer-flex {
+.maps-container-block {
   @media screen and(min-width:768px) {
     display: flex;
     flex-direction: row-reverse;

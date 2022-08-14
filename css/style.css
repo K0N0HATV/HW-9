@@ -657,7 +657,7 @@ body {
   z-index: -1;
 }
 
-.footer-bg {
+.maps {
   width: 1240px;
   width: 100%;
   background: #222021;
@@ -665,12 +665,12 @@ body {
   margin-top: 93px;
 }
 @media screen and (min-width: 768px) {
-  .footer-bg {
+  .maps {
     height: 301px;
   }
 }
 
-.contact {
+.maps-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -680,58 +680,58 @@ body {
   margin: auto;
 }
 @media screen and (min-width: 768px) {
-  .contact {
+  .maps-container {
     flex-direction: row;
     margin-top: 65px;
     justify-content: space-around;
   }
 }
 
-.footer-logo {
+.maps-container-img {
   width: 162px;
   height: 69px;
 }
 @media screen and (min-width: 768px) {
-  .footer-logo {
+  .maps-container-img {
     width: 197px;
     height: 84px;
     margin-left: 102px;
   }
 }
 
-.footer-contact {
+.maps-container-block-maps {
   display: flex;
   margin-top: 43px;
   gap: 7px;
   align-items: center;
 }
 @media screen and (min-width: 768px) {
-  .footer-contact {
+  .maps-container-block-maps {
     margin-left: 107px;
     padding-bottom: 30px;
   }
 }
 
-.footer-phone {
+.maps-container-block-tel {
   display: flex;
   margin-top: 12px;
   gap: 10px;
   margin-right: 50px;
 }
 @media screen and (min-width: 768px) {
-  .footer-phone {
+  .maps-container-block-tel {
     margin-left: 70px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .phone {
+  .maps-container-block-tel-img {
     width: 39px;
     height: 39px;
   }
 }
 
-.end {
+.footer-p-small {
   margin-top: 35px;
   font-family: "Saira";
   font-style: normal;
@@ -743,16 +743,16 @@ body {
   text-align: center;
 }
 @media screen and (min-width: 768px) {
-  .end {
+  .footer-p-small {
     display: none;
   }
 }
 
-.end-2 {
+.footer-p-big {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  .end-2 {
+  .footer-p-big {
     display: block;
     font-family: "Inter";
     font-style: normal;
@@ -767,7 +767,7 @@ body {
   }
 }
 
-.geo-p {
+.maps-container-block-maps-p {
   width: 206px;
   height: 42px;
   left: 120px;
@@ -780,7 +780,7 @@ body {
   color: #F5F5F5;
 }
 @media screen and (min-width: 768px) {
-  .geo-p {
+  .maps-container-block-maps-p {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
@@ -791,13 +791,13 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .geo {
+  .maps-container-block-maps-img {
     width: 50px;
     height: 50px;
   }
 }
 
-.phone-p {
+.maps-container-block-tel-p {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -806,7 +806,7 @@ body {
   color: #F5F5F5;
 }
 @media screen and (min-width: 768px) {
-  .phone-p {
+  .maps-container-block-tel-p {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
@@ -817,7 +817,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .footer-flex {
+  .maps-container-block {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
